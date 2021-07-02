@@ -12,6 +12,7 @@ def check_permission():
         activate()
     else:
         uac_bypass()
+        activate()
 
 
 def uac_bypass():
